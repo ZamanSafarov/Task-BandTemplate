@@ -1,0 +1,343 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.head{
+    font-family: 'Lato',
+    sans-serif;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: 15px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.container{
+    background-color: black;
+   
+}
+
+.nav-head{
+    display: flex;
+    
+}
+.all-ul{
+    display: flex;
+    color:white;
+    text-transform:uppercase;
+}
+.fas{
+  color: white;
+  background-color: black;
+  padding: 16px 24px;
+  margin-left: 1357px;
+}
+.single-li{
+    display: flex;
+}
+.fa-caret-down{
+    margin-left: 3px;
+}
+.fas:hover{
+    background-color: red;
+}
+.all-ul li{
+    background-color: black;
+    padding: 16px 24px;
+}
+
+.all-ul li:hover{
+  background-color: #c0bebe;
+  color: black;
+  cursor: pointer;
+}
+.first-sc{
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+}
+.first-h3{
+    font-size: 24px;
+    padding: 20px 0px;
+}
+.first-p{
+    font-size: 15px;
+    font-weight: 20px;
+}
+.first-img{
+    width: 100%;
+}
+.first-sc,.second-sc,.third-sc,.fourth-sc{
+    width: 100%;
+}
+.first-container-sc .first-sc-texts{
+    left: 42%;
+    top:85%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+}
+.second-sc{
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+    
+}
+.second-container-sc{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 56px;
+    margin: 0px 510px;
+    
+
+}
+.second-sc-h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    letter-spacing: 2px;
+    
+}
+.second-sc-first-p{
+    font-family: 'Lato',
+    sans-serif;
+    color: #757575;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+.second-sc-second-p{
+    margin: 15px 0px ;
+    text-align: justify;
+    line-height: 1.4;
+}
+.second-container-img{
+    display: flex;
+    justify-content: space-around;
+}
+.second-img{
+    width: 150px;
+    height: 150px;
+    
+}
+.sc-name{
+    font-family: 'Lato',
+    sans-serif; ;
+    display: flex;
+    font-weight:bold;
+    justify-content: center;
+    justify-content: space-around;
+}
+.img-help{
+    padding: 24px 0px;
+}
+
+.img-name{
+    padding: 32px 0px;
+
+}
+.third-sc{
+    background-color: black;
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+}
+.third-container{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 64px 56px;
+    margin: 0px 510px;
+
+}
+.third-sc-h2{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 8px 0px;
+    letter-spacing: 2px;
+}
+.third-sc-p{
+    color: #757575;
+    font-size: 15px;
+    margin: 26px 0px;
+}
+.third-sc-table{
+    text-align: start;
+    background-color: white;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+.table-li{
+    color: #757575;
+    padding: 10px 18px;
+    border-bottom: 1px solid #ddd;
+}
+.li-sold-out{ 
+    background-color: #f44336 ;
+    color: white;
+    margin-left: 10px ;
+    padding: 4px 10px;
+    display: inline-block;
+}
+.round-number{
+    color: white;
+    background-color: black;
+    float: right;
+    padding: 4px 8px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.card-container{
+    padding: 32px 0px;
+    justify-content: space-between;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.card-img{
+    width: 245px;
+    height: 180px;
+}
+.card-img:hover{
+    opacity: 0.6;
+}
+.card-texts{
+    line-height: 20px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    width: 245px;
+    background-color: white;
+    margin-top: -2px;
+}
+.card-name, .dates, .about-card, .card-button{
+    margin: 15px 12px;
+}
+.card-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+.dates{
+    color: #757575;
+}
+.card-button{
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    border: none;
+    margin-top: -1px;
+    
+}
+.card-button:hover{
+    background-color: #c2c0c0;
+    color:black;
+    cursor: pointer;
+}
+.fourth-sc{
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+}
+
+.fourth-sc-container{
+    text-align: center;
+    padding: 64px 56px;
+    margin: 0px 510px;
+}
+.fourth-sc-h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    letter-spacing: 2px;
+}
+.for-padding{
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-i{
+    margin-right: 10px;
+}
+.contact-left{
+    text-align: start;
+    font-weight: 500;
+    font-size: 18px;
+    width: 400px;
+}
+.contact-right{
+    margin-left: 40px;
+}
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 62px;
+
+}
+.int{
+    border: 1px solid #b9b8b8;
+    padding: 12px;
+}
+.int-email{
+    margin-left: 16px;
+}
+.int-message{
+    width: 100%;
+    margin-top: 10px;
+}
+.fifth-img{
+    width: 100%;
+    filter:grayscale(50%);
+}
+.contact-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    margin: 16px 0px;
+    font-size: 15px;
+}
+.contact-button:hover{
+    background-color: #bdbaba;
+    color: black;
+}
+.button{
+    margin-left: 400px;
+}
+.foot-sc{
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+    padding: 60px 0px;
+    text-align: center;
+    color: #757575;
+    font-size: 23px;
+}
+.last{
+    font-size: 15px;
+    color: #757575;
+    margin: 15px 0px;
+}
+.facebook-badge{
+    border-radius: 0%;
+}
+.w3-a{
+    color: #757575;
+}
+
+
+
+
+    
