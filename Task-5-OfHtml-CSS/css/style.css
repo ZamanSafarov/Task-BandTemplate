@@ -23,7 +23,6 @@ html,body{
 
 .nav-head{
     display: flex;
-    
 }
 .all-ul{
     display: flex;
@@ -39,17 +38,21 @@ html,body{
 .single-li{
     display: flex;
 }
-.fa-caret-down{
-    margin-left: 3px;
-}
 .fas:hover{
     background-color: red;
 }
 .all-ul li{
     background-color: black;
-    padding: 16px 24px;
+    padding: 16px 20px;
 }
-
+.navs{
+    text-decoration: none;
+    color: white;
+    padding: 0 8px;
+}
+.all-ul li:hover .navs{
+    color: black
+}
 .all-ul li:hover{
   background-color: #c0bebe;
   color: black;
