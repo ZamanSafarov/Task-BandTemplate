@@ -35,14 +35,44 @@ html,body{
   padding: 16px 24px;
   float: right;
 }
-.single-li{
-    display: flex;
+.for_more {
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 100%;
+    left: 0%;
+    display: none;
+    list-style: none;
+}
+
+.for_more li {
+    text-transform: none;
+    display: block;
+    padding: 8px;
+}
+
+.hd_more {
+    position: relative;
+    padding: 11px 18px;
+}
+
+.hd_more:hover {
+    color: black;
+    background-color: #c6c6c6;
+}
+
+.hd_more:hover .for_more {
+    display: block !important;
+}
+
+.in-more:hover {
+    background-color: #c6c6c6;
+    color: black;
 }
 .fas:hover{
     background-color: red;
 }
 .all-ul li{
-    background-color: black;
     padding: 16px 20px;
 }
 .navs{
@@ -353,7 +383,7 @@ width: 100%;
     .second-container-img, .images{
         flex-direction: column;
     }
-    .band,.tour,.contact,.single-li,.fa-caret-down,.fa-search{
+    .band,.tour,.contact,.hd_more,.fa-caret-down,.fa-search{
         display: none;
     }
     .nav_media_bar{
