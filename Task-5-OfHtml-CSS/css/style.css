@@ -353,7 +353,7 @@ width: 100%;
     .second-container-img, .images{
         flex-direction: column;
     }
-    .band,.tour,.contact,.more,.fa-caret-down,.fa-search{
+    .band,.tour,.contact,.single-li,.fa-caret-down,.fa-search{
         display: none;
     }
     .nav_media_bar{
@@ -364,6 +364,10 @@ width: 100%;
     }
     .card2,.button{
         margin: 0;
+    }
+    .card2{
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .for-padding{
         display: block;
